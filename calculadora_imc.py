@@ -14,7 +14,7 @@ peso = float(input("Ingrese su peso en kilogramos:")) #float
 estatura = float(input("Ingrese su estatura en metros:")) #float
 
 # Cálculo del IMC
-imc = round(peso / (estatura ** 2), 2) #round
+imc = round(peso / (estatura ** 2), 2) #redonde el resultado a 2 decimales
 
 # Resultados
 print("Hola, su IMC es:", imc)
